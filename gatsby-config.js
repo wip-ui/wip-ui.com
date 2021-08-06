@@ -7,10 +7,12 @@ module.exports = {
     "gatsby-plugin-theme-ui",
     "gatsby-plugin-gatsby-cloud",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-40JP04B7F0",
-      },
+        trackingIds: [
+          "UA-204293970-1",
+        ],
+      }
     },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
