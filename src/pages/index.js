@@ -12,11 +12,8 @@ const headingStyles = {
   marginTop: 32,
   marginBottom: 64,
 }
-const paragraphStyles = {
-  marginBottom: 48,
-}
 const linkStyle = {
-  color: "#8F56FF",
+  color: "#FE938C",
   fontWeight: "bold",
   fontSize: 24,
   verticalAlign: "5%",
@@ -42,15 +39,7 @@ const IndexPage = () => {
         <br /><br />
         <a href="mailto:contact@sergeylukin.com?subject=wip-ui.com" style={linkStyle}>contact@sergeylukin.com</a>
         <br /><br />
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
       </h1>
-      <p style={paragraphStyles}>
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
     </main>
   )
 }
